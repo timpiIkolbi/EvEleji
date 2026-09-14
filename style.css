@@ -1,0 +1,65 @@
+body{
+    color: #FEF2A0;
+    background-color: #F3CD97;
+}
+header{
+    background-color: #E98B50;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/*____________NAVBAR_____________*/
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav div {
+  display: flex;
+  align-items: flex-start;
+  width: 80%;
+  flex-direction: row-reverse;
+   background-color: #BC4F4F;
+   border-radius: 30px;
+}
+@media screen and (min-width: 40em) {
+  nav div {
+    align-items: center;
+  }
+}
+nav div ul {
+  display: none;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  gap: 10em;
+}
+@media screen and (min-width: 40em) {
+  nav div ul {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+  }
+}
+nav div ul li {
+  text-align: center;
+  
+}
+nav div ul li a {
+  display: block;
+  line-height: 1rem;
+  padding: 1em;
+  text-decoration: none;
+  color: #FEF2A0;
+}
+nav div ul li a:hover {
+  background-color: #AA4F4F;
+}
+/*____________Bemutatkozas_____________*/
+#bemutatkozas{
+    background-color:#BC4F4F ;
+    text-align: center;
+    width: 80%;
+}
